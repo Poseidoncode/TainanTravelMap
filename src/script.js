@@ -86,7 +86,7 @@ const townSelector = document.querySelector('.townList');
 function addTownList(){
     let allTown = [];
     let townStr='';
-    townStr += '<option>請選擇縣市</option>'
+    townStr += '<option>請選擇地區</option>'
     for(let i=0;i<alldata.length;i++){
         const townName = alldata[i].district;
         if(allTown.indexOf(townName) == -1 && townName !== ''){
