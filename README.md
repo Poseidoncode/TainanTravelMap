@@ -11,6 +11,11 @@
 - GitHub Pages
 
   https://poseidoncode.github.io/collection-TainanTravelMap/
+  
+- 標記說明
+
+  黃色 Marker : 美食
+  藍色 Marker : 旅遊
 
 - 作品截圖
 
