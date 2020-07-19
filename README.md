@@ -14,7 +14,7 @@
 
 - 作品截圖
 
-  ![image](https://github.com/Poseidoncode/collection-RadJisson-Hotel/blob/gh-pages/img/landscape.PNG)
+  ![image](https://github.com/Poseidoncode/collection-TainanTravelMap/blob/gh-pages/screen.PNG)
 
 
 - 資料來源
