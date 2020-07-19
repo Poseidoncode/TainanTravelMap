@@ -28,7 +28,7 @@ let blueIcon = new L.Icon({
 //取出旅遊JSON資料
 let markers = new L.MarkerClusterGroup().addTo(map);;
 let xhr = new XMLHttpRequest();
-xhr.open("get", "../TainanFood.json");
+xhr.open("get", "https://raw.githubusercontent.com/Poseidoncode/collection-TainanTravelMap/gh-pages/TainanFood.json");
 xhr.send();
 xhr.onload = function () {
   let data = JSON.parse(xhr.responseText)
@@ -43,7 +43,7 @@ xhr.onload = function () {
 let markers2 = new L.MarkerClusterGroup().addTo(map);;
 
 let xhr2 = new XMLHttpRequest();
-xhr2.open("get", "../TainanTravel.json");
+xhr2.open("get", "https://raw.githubusercontent.com/Poseidoncode/collection-TainanTravelMap/gh-pages/TainanTravel.json");
 xhr2.send();
 xhr2.onload = function () {
   let data = JSON.parse(xhr2.responseText)
@@ -68,7 +68,7 @@ let alldata;
 
 function getData(){
     const xhr3 = new XMLHttpRequest;
-    xhr3.open('get','../TainanData.json',true)
+    xhr3.open('get','https://raw.githubusercontent.com/Poseidoncode/collection-TainanTravelMap/gh-pages/TainanData.json',true)
     xhr3.send(null);
     xhr3.onload = function(){
         alldata = JSON.parse(xhr3.responseText);
