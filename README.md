@@ -16,7 +16,7 @@
   
   黃色 Marker : 美食
   
-  藍色 Marker : 旅遊
+  藍色 Marker : 景點
 
 - 作品截圖
 
